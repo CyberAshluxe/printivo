@@ -90,8 +90,6 @@ position: relative;
  height: 200px;
  margin: 0px;
  padding: 0px;
- 
- border: solid transparent 1px;
  object-fit: cover;
 }
 .child img:hover{
