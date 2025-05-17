@@ -49,7 +49,7 @@
     justify-content: space-between;
     padding: 20PX 50PX;
     position: sticky;
-
+    z-index: 400;
     top: 0px;
     background-color: rgb(236,232,217);
 }
