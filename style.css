@@ -82,7 +82,8 @@ height: 400px;
 margin: 10px;
 border: 1px rgb(204, 202, 199) solid;
 box-shadow: 1px 1px 2px;
-
+overflow: hidden;
+position: relative;
 }
 .child img{
  width: 300px;
@@ -90,10 +91,13 @@ box-shadow: 1px 1px 2px;
  margin: 0px;
  padding: 0px;
  
+ border: solid transparent 1px;
+ object-fit: cover;
 }
 .child img:hover{
-transform: scale(1.1);
-transition: transform 0.3s ease;
+    transition: transform 1.3s ease;
+transform: scale(1.05);
+
 }
 
 .child span{
